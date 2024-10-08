@@ -2457,7 +2457,24 @@ Hero Shape
 /*===========================
       10.CONTACT  css 
 ===========================*/
+#contact img{
+    max-width: 300px;
+    height: auto;
+}
 
+#contact ul li a {
+    font-size: 24px;
+    color: #798795;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    margin: 0 10px;
+}
+#contact ul li a:hover {
+    color: #1ba9ef;
+}
 .contact-map iframe {
     width: 100%;
     height: 550px;
@@ -2657,7 +2674,7 @@ Hero Shape
     height: 45px;
     line-height: 45px;
     border-radius: 50%;
-    background-color: #1ba9ef;
+    background-color: #c1c1c1;
     text-align: center;
     z-index: 99;
     -webkit-transition: all 0.3s ease-out 0s;
@@ -2670,7 +2687,7 @@ Hero Shape
 
 .back-to-top:hover {
     color: #fff;
-    background-color: #f3c854;
+    background-color: #adacac;
 }
 
 
@@ -3377,6 +3394,17 @@ hr.codepen-primary:after {
     background-color: #1ba9ef;
 }
 
+.bg-block-darkBlue {
+    background-color: #133A68;
+}
+
+.bg-block-yellow{
+    background-color: #f2b200;
+}
+
+.bg-block-orange{
+    background-color: #FD8B51;
+}
 .img-portfolio {
     max-height: 300px;
     width: auto;
